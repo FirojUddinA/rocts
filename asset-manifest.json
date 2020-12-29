@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/rocts/static/css/main.cfb39bec.chunk.css",
+    "main.js": "/rocts/static/js/main.6768d08c.chunk.js",
+    "main.js.map": "/rocts/static/js/main.6768d08c.chunk.js.map",
+    "runtime-main.js": "/rocts/static/js/runtime-main.5ae78206.js",
+    "runtime-main.js.map": "/rocts/static/js/runtime-main.5ae78206.js.map",
+    "static/js/2.b243f002.chunk.js": "/rocts/static/js/2.b243f002.chunk.js",
+    "static/js/2.b243f002.chunk.js.map": "/rocts/static/js/2.b243f002.chunk.js.map",
+    "index.html": "/rocts/index.html",
+    "static/css/main.cfb39bec.chunk.css.map": "/rocts/static/css/main.cfb39bec.chunk.css.map",
+    "static/js/2.b243f002.chunk.js.LICENSE.txt": "/rocts/static/js/2.b243f002.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/rocts/static/media/banner_bg.2789447d.png",
+    "static/media/banner.d6fb536d.png": "/rocts/static/media/banner.d6fb536d.png",
+    "static/media/cloud-native-foundational-pillars.49275f54.png": "/rocts/static/media/cloud-native-foundational-pillars.49275f54.png",
+    "static/media/community.6d3a49ca.png": "/rocts/static/media/community.6d3a49ca.png",
+    "static/media/jigsaw.3cbb2832.png": "/rocts/static/media/jigsaw.3cbb2832.png",
+    "static/media/scale_able.1e2f4c4d.png": "/rocts/static/media/scale_able.1e2f4c4d.png",
+    "static/media/scallable.7a8a11d8.png": "/rocts/static/media/scallable.7a8a11d8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ae78206.js",
+    "static/js/2.b243f002.chunk.js",
+    "static/css/main.cfb39bec.chunk.css",
+    "static/js/main.6768d08c.chunk.js"
+  ]
+}

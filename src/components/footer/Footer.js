@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from "react-router-dom";
 const Footer = () => {
     return (
         <>
@@ -30,9 +29,9 @@ const Footer = () => {
                                     <div className="widget">
                                         <h4>More About Company</h4>
                                         <div className="useful-link">
-                                            <Link to="#"><i className="fab fa-facebook-f"/>@example</Link>
-                                            <Link to="#"><i className="fab fa-twitter"/>@example</Link>
-                                            <Link to="#"><i className="fab fa-linkedin-in"/>@example</Link>
+                                            <a href="#"><i className="fab fa-facebook-f"/>@example</a>
+                                            <a href="#"><i className="fab fa-twitter"/>@example</a>
+                                            <a href="#"><i className="fab fa-linkedin-in"/>@example</a>
                                         </div>
                                     </div>
                                 </div>

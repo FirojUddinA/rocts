@@ -10,19 +10,21 @@ const Home = () => {
     return (
         <>
             <div id="banner-area">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-6">
-                            <div className="banner-content">
-                                <h1>We craft <br/>brands, web apps, and user interfaces we are in+ studio</h1>
-                                <p>LOREM IPSUM IS SIMPLY DUMMY TEXT OF THE PRINTING.</p>
-                                <a href="#" className="btn">Reas more</a>
+                <div className="bannerWraper">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-6">
+                                <div className="banner-content">
+                                    <h1>We craft <br/>brands, web apps, and user interfaces we are in+ studio</h1>
+                                    <p>LOREM IPSUM IS SIMPLY DUMMY TEXT OF THE PRINTING.</p>
+                                    <a href="#" className="btn">Reas more</a>
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-md-6 d-none d-md-block">
-                            <div className="banner-content">
-                                <div className="">
-                                    <img src={banner} alt=""/>
+                            <div className="col-md-6 d-none d-md-block">
+                                <div className="banner-content">
+                                    <div className="">
+                                        <img src={banner} alt=""/>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -149,25 +151,6 @@ const Home = () => {
 
 
 
-
-            {/*<div id="scalability">*/}
-            {/*    <div className="container py-5">*/}
-
-            {/*        <div className="row align-items-center">*/}
-            {/*            <div className=" col-12 text-center">*/}
-            {/*                <div className="scalability_content">*/}
-            {/*                    <div className="scalability_child">*/}
-            {/*                        <h3>Scalability</h3>*/}
-            {/*                        <h4>Perfectly Scalability designed</h4>*/}
-            {/*                        <p>Dorm sed odic duk Etiam portal semi malesuada magna malls euismod. Nullam Id*/}
-            {/*                            dolor id nibh ultricies .vehkula iut id elk. Morbi leo risus.</p>*/}
-
-            {/*                        <a href="#" className="btn">learn more</a>                                </div>*/}
-            {/*                </div>*/}
-            {/*            </div>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
         </>
     );
 };

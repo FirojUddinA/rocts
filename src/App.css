@@ -2,7 +2,7 @@
 
 /*font-family: 'Open Sans', sans-serif;*/
 /*font-family: 'Open Sans Condensed', sans-serif;*/
-
+/*"homepage": "http://skuirrels.github.io/platform3_web",*/
 * {
   margin: 0;
   padding: 0
@@ -161,9 +161,10 @@ button.btn, a.btn {
 #header_area.scrolled ul#nav li a {
   padding: 15px 10px !important;
 }
-
-#banner-area {
-  margin-top: 81px;
+#banner-area{
+  padding-top: 81px;
+}
+#banner-area .bannerWraper{
   background-image: url("./images/banner_bg.png"), linear-gradient(166deg, #333333 0%, #333333 100%) !important;
   background-size: cover;
   background-repeat: no-repeat;
@@ -270,7 +271,7 @@ button.btn, a.btn {
 
 #component {
   background-color: #ffffff;
-  padding: 0 0 50px;
+  padding-top: 80px;
 }
 
 #component .component_details_content {
@@ -317,7 +318,7 @@ button.btn, a.btn {
 
 #scalability {
 
-  padding: 40px 0 50px;;
+  padding: 80px 0 50px;;
   background-image: url("./images/Scalability.png"), linear-gradient(166deg, #333333 0%, #333333 100%) !important;
   background-size: cover;
   background-repeat: no-repeat;
@@ -396,312 +397,6 @@ button.btn, a.btn {
   font-family: 'Open Sans', sans-serif;
 
 }
-
-
-
-/*#scalability {*/
-
-/*  padding: 40px 0 50px;;*/
-/*  background-image: url("./images/Scalability.png"), linear-gradient(166deg, #333333 0%, #333333 100%) !important;*/
-/*  background-size: cover;*/
-/*  background-repeat: no-repeat;*/
-/*  background-position: left top;*/
-/*}*/
-
-/*#scalability  .heading h2.title{*/
-/*  color: #ffffff !important;*/
-/*}*/
-/*#scalability .heading p{*/
-/*  color: #ffffff !important;*/
-/*}*/
-
-/*#scalability .scalability_content {*/
-
-/*}*/
-
-/*#scalability .scalability_content .scalability_child {*/
-/*  text-align: center;*/
-/*}*/
-
-/*#scalability .scalability_content .component_details_child img {*/
-
-/*}*/
-
-/*#scalability .scalability_content .scalability_child h3 {*/
-
-/*  font-size: 36px;*/
-/*  font-weight: bold;*/
-/*  color: #fff;*/
-/*  margin: 25px 0 10px;*/
-/*  text-transform: uppercase;*/
-/*  font-family: 'Open Sans', sans-serif;*/
-/*  text-align: center;*/
-
-/*}#scalability .scalability_content .scalability_child h3:before {*/
-/*   position: absolute;*/
-/*   content: '';*/
-/*   width: 60px;*/
-/*   height: 4px;*/
-/*   background: #c76f25;*/
-/*   top: 0;*/
-/*   left: calc(50% - 30px);*/
-/* }*/
-/*#scalability .scalability_content .scalability_child h4 {*/
-
-/*  font-size: 28px;*/
-/*  font-weight: bold;*/
-/*  color: #fff;*/
-/*  margin: 25px 0 10px;*/
-/*  text-transform: uppercase;*/
-/*  font-family: 'Open Sans', sans-serif;*/
-/*  text-align: center;*/
-
-/*}*/
-
-/*#scalability .scalability_content .scalability_child p {*/
-/*  color: #fff !important;*/
-/*  font-weight: 700;*/
-/*  font-size: 18px;*/
-/*  text-align: center;*/
-/*  font-family: 'Open Sans', sans-serif;*/
-/*  max-width: 700px;*/
-/*  margin: 0 auto;*/
-
-/*}*/
-/*#scalability .scalability_content .scalability_child a {*/
-/*  font-weight: 500;*/
-/*  font-size: 18px;*/
-/*  padding: 8px 16px;*/
-/*  color: #ffffff;*/
-/*  background-color: #ff4530;*/
-/*  border-radius: 5px;*/
-/*  margin: 10px auto 10px;*/
-/*  text-transform: uppercase;*/
-/*  font-family: 'Open Sans', sans-serif;*/
-/*  text-align: center;*/
-
-
-/*}*/
-/*#scalability .scalability_content .scalability_child .community ul{*/
-/*  list-style: none;*/
-
-/*}*/
-/*#scalability .scalability_content .scalability_child .community li{*/
-/*  color: #676a6c !important;*/
-/*  font-weight: 700;*/
-/*  font-size: 18px;*/
-/*  font-family: 'Open Sans', sans-serif;*/
-
-/*}*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#team {
-  background-color: #f8f8f8;
-  padding: 100px 0 50px;
-}
-
-#team .team_details {
-  padding-bottom: 40px
-}
-
-#team .team_details .team_child {
-  text-align: center;
-}
-
-#team .team_details .team_child img {
-  /*    margin-bottom: 20px;*/
-}
-
-#team .team_details .team_child h3 {
-  text-align: center;
-  font-size: 22px;
-  font-weight: 800;
-  color: #aeaeae;
-  margin: 10px 0;
-  text-transform: capitalize;
-  font-family: 'Open Sans', sans-serif;
-
-}
-
-#team .team_details .team_child h5 {
-  text-align: center;
-  font-size: 16px;
-  font-weight: normal;
-  color: #aeaeae;
-  margin: 10px 0 15px;
-  font-family: 'Open Sans', sans-serif;
-
-}
-
-#team .team_details .team_child p {
-  color: #aeaeae !important;
-  font-weight: 700;
-  font-size: 13px;
-
-}
-
-#team .team_details .team_child .social_link {
-  margin-top: 20px;
-}
-
-#team .team_details .team_child .social_link a {
-  display: inline-block;
-  margin: 0 .5rem;
-  color: #fff;
-}
-
-#team .team_details .team_child .social_link a i {
-  color: #fff;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  background: #c76f25;
-  text-align: center;
-  line-height: 35px;
-  margin-right: 5px;
-  font-size: 18px
-}
-
-
-
-#feature {
-  background-color: #ffffff;
-  padding: 50px 0 50px;
-}
-
-#feature .features_content {
-  padding-bottom: 40px
-}
-
-#feature .col* {
-  align-items: center
-}
-
-#feature .features_content .features_details h3 {
-
-  font-size: 18px;
-  font-weight: 800;
-  color: #ce8242;
-  margin: 25px 0 10px;
-  text-transform: uppercase;
-  font-family: 'Open Sans ', sans-serif;
-
-}
-
-i#feature .features_content .features_details h4 {
-
-  font-size: 18px;
-  font-weight: 700;
-  color: #bababa;
-  margin: 25px 0 10px;
-  text-transform: uppercase;
-  font-family: 'Open Sans Condensed', sans-serif;
-
-}
-
-#feature .features_content .features_details p {
-  color: #bababa !important;
-  font-weight: 700;
-  font-size: 13px;
-
-}
-
-#feature .features_content .features_details a.btn {
-
-  font-size: 14px;
-  font-weight: 800;
-  color: #ffffff;
-  background-color: #333;
-  border-radius: 5px;
-}
-
-
-
-#more_feature {
-  background-color: #ffffff;
-  padding: 0 0 50px;
-}
-
-#more_feature .features_content {
-  padding-bottom: 40px
-}
-
-#more_feature .col* {
-  align-items: center
-}
-
-#more_feature .features_content .features_details h3 {
-
-  font-size: 18px;
-  font-weight: 800;
-  color: #ce8242;
-  margin: 25px 0 10px;
-  text-transform: uppercase;
-  font-family: 'Open Sans ', sans-serif;
-
-}
-
-#more_feature .features_content .features_details h4 {
-
-  font-size: 18px;
-  font-weight: 700;
-  color: #333;
-  margin: 25px 0 10px;
-  text-transform: uppercase;
-  font-family: 'Open Sans Condensed', sans-serif;
-
-}
-#more_feature .features_content .features_details .float{
-  clear: both;
-}
-
-#more_feature .features_content .features_details p {
-  color: #bababa !important;
-  font-weight: 700;
-  font-size: 13px;
-  float: left
-
-}
-#more_feature .features_content .features_details img {
-
-  float: right
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 footer .top-footer {
